@@ -1,0 +1,23 @@
+# Book settings
+title: ME4823 
+author: Michael McCarrin
+exclude_patterns: [README.md]
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+bibtex_bibfiles:
+  - references.bib
+# Information about where the book exists on the web
+repository:
+  url                       : https://github.com/gramlogic/multirobot/
+  branch: master  # An optional branch, defaults to `master`
+
+parse:
+  myst_enable_extensions:
+    - deflist
+    - dollarmath
+    - linkify
+    - substitution
+    - colon_fence
